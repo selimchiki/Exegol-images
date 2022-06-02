@@ -1,6 +1,6 @@
 # Author: Charlie BROMBERG (Shutdown - @_nwodtuhs)
 
-FROM --platform=linux/amd64 debian
+FROM kalilinux/kali-rolling:arm64
 
 ARG TAG="local"
 ARG VERSION="local"
